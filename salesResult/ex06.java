@@ -1,15 +1,9 @@
+package salesResult;
 
-public class ex07 {
+public class ex06 {
 	//コマンドライン引数とは、mainメソッドに渡される引数
 
     public static void main(String[] args) {
-
-    	if(args.length != 4) {
-    		System.out.println("** 実行方法 **");
-    		System.out.println("java SelesResult <日付> <東京の売上> <大阪の売上> <名古屋の売上>");
-    		//return 処理終了　メインメソッドでも途中でreturunを使えば処理が返る
-    		return;
-    	}
 
         // メッセージの表示
         String date = args[0]; // 日付の格納
@@ -51,5 +45,6 @@ public class ex07 {
 
 //getAverageメソッド内とmainメソッド内の変数メモリアドレスは使用範囲が異なる
 //戻り値averageを入れたavgを表示している。
+
 
 

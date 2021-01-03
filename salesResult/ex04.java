@@ -1,28 +1,30 @@
+package salesResult;
 
-public class ex05 {
+public class ex04 {
 
     public static void main(String[] args) {
         // メッセージの表示
-        String data = "2010/04/02";
-        int records[] = {82000,46000,65000};
+        String data = "2010/04/01";
+        int records[] = {65000,73000,90000};
         int total = 0;
-        double divisor = records.length;
+        int divisor = records.length;
 
-        for(int i = 0; i < records.length ; i++) {
+
+        for(int i = 0; i < divisor ; i++) {
             System.out.println( "["+ i +"]  total = > " + total);
             total = records[i] + total;
         }
 
       //スコープが異なるので、メイン用の受け皿変数を用意しないと、戻り値をメインで反映出来ない
-        double avg = getAverage(total,divisor);
+        int avg = getAverage(total,divisor);
 
         System.out.println("**" + data + "**");
         System.out.println("合計:" + total);
         System.out.println("平均:" + avg);
 
     }
-    public static double getAverage(int total, double divisor) {
-    	double average = 0;
+    public static int getAverage(int total,int divisor) {
+    	int average = 0;
     	average = total / divisor;
     	System.out.println(average);
     	return average;

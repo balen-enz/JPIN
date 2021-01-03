@@ -1,3 +1,4 @@
+package salesResult;
 class ex02 {
     /**
      * アプリケーションを起動します。

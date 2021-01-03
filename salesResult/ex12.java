@@ -1,3 +1,4 @@
+package salesResult;
 //41行目 Arraysクラスを使用する為のインポート
 
 class ex12 {

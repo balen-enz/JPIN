@@ -1,3 +1,4 @@
+package salesResult;
 import java.util.Arrays;
 
 //41行目 Arraysクラスを使用する為のインポート

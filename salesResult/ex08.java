@@ -1,3 +1,4 @@
+package salesResult;
 
 public class ex08 {
 	//コマンドライン引数とは、mainメソッドに渡される引数
